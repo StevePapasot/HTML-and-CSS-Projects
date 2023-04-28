@@ -1,0 +1,220 @@
+body{
+    background-color: rgba(223, 221, 213, 0.918);
+    color: #000;
+}
+a{
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: #000;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    text-align: center;
+}
+/*---------------------------------------- Navbar -----------------------------------*/
+.logo {
+    font-size: 35px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.nav-link{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*-------------------------------------- Image-Intro -------------------------------*/
+.intro p{
+    font-family: 'Cormorant Garamond', italic;
+    font-size: 60px;
+}
+.intro h4{
+    font-family: 'Cormorant Garamond', italic;
+    font-size: 35px;
+}
+.profile{
+    width:600px;
+}
+@media(min-width:1500px){
+    .intro p{
+        font-family: 'Cormorant Garamond', italic;
+        font-size: 80px;
+    }
+    .intro h4{
+        font-family: 'Cormorant Garamond', italic;
+        font-size: 45px;
+    }
+    .profile{
+        width:750px;
+    }
+}
+
+/*---------------------------------------------------------- Recent Work -----------------------------------------------*/
+.recent{
+    margin: 5%;
+}
+.recent a{
+    cursor: pointer;
+}
+.recent h5{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+.imgc{
+    height: 1200px;
+    width: 1080px;
+}
+
+/* Gallery Start */
+.intro {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallery_container-all{
+  width: 100%;
+  margin: 200px auto;
+  height: auto;
+  margin-bottom: 40px;
+}
+.gallery_container{
+  width: calc(100% - 6px);
+  overflow: hidden;
+  height: 100%;
+  margin: 0px;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  background-color: rgba(223, 221, 213, 0.918);
+}
+img {
+  width: 700px;
+  transition-duration: 0.3s;
+  max-width: 1200px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery_title {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 50%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.4em;
+  transition-duration: 0.3s;
+}
+.gallery_container:hover img {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+  opacity: 0;
+}
+.gallery_container:hover span {
+  color: #000;
+  display: block;
+  transition-duration: 0.3s;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/*------------------------------------------------ Location -------------------------------------------*/
+#location {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+#location h5{
+    font-size:28px;
+}
+#location h1{
+    font-size:55px;
+    font-weight:bold;
+}
+iframe{
+    width: 1000px;
+    max-width: 1900px;
+    justify-content: center;
+    height: 700px;
+}
+
+/*------------------------------------------------------- Footer ---------------------------------------------*/
+footer{
+    background-color: #000;
+    height:450px;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+}
+footer h2{
+    font-size: 40px;;
+}
+footer p{
+    font-size: 20px;
+}
+.eform{
+    width: 270px;
+    height:60px;
+    text-align: right;
+}
+.btn{
+    width:200px;
+    height:55px;
+}
+
+
+/*------------------------------------- Media ----------------------------------------------------*/
+@media (max-width:990px){
+    iframe{
+        width:800px;
+        height:500px;
+    }
+    footer{
+        background-color: #000;
+        height:500px;
+        color: #fff;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .profile{
+        width: 650px;
+        height:850px;
+    }
+    .imgc{
+        height:500px;
+        width:450px;
+    }
+    .introduction p{
+        font-size:10px;
+    }
+}
+
+
+@media (max-width:400px){
+    iframe{
+        width:300px;
+        height:250px;
+    }
+    footer{
+        background-color: #000;
+        height:750px;
+        color: #fff;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .profile{
+        width: 300px;
+        height:400px;
+    }
+    .imgc{
+        height:400px;
+        width:350px;
+    }
+    .introduction p{
+        font-size:10px;
+    }
+}
+
+
+

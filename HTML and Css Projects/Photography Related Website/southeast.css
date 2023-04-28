@@ -1,0 +1,158 @@
+body {
+  background-color: rgba(223, 221, 213, 0.918);
+  color: #000;
+}
+a {
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  color: #000;
+  font-family: "Cormorant Garamond", serif;
+  text-decoration: none;
+  text-align: center;
+}
+/*---------------------------------------- Navbar -----------------------------------*/
+.logo {
+  font-size: 35px;
+  font-family: "Cormorant Garamond", serif;
+}
+.nav-link {
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+#mainim {
+  background-image: url("/Images/66a34340a7b2fa3c471b7297cd448382.jpg");
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  color: #fff;
+  margin: 12%;
+}
+.text h5 {
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+}
+.text p {
+  font-size: 65px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/*---------------------------------------------------------- Images -----------------------------------------------*/
+.container {
+  margin: 7% 10%;
+}
+.pic1 {
+  width: 600px;
+  height: 500px;
+}
+.tex p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+}
+.pic2 {
+  width: 600px;
+  height: 800px;
+  margin: 0% 30% 0% 0%;
+}
+.stxt {
+  text-align: center;
+  width: 70%;
+  padding-left: 25%;
+  padding-top: 10%;
+  font-size: 18px;
+}
+.textm {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 16px;
+}
+.textm {
+  margin: 0%;
+}
+.big {
+  text-align: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0% 0% 7% 7%;
+}
+.next {
+  padding-left: 86%;
+}
+.next a {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+}
+.timg4 {
+  font-size: 16px;
+  font-weight: regular;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 70%;
+  padding-left: 13%;
+}
+.image4 {
+  width: 600px;
+}
+.container {
+  padding: 5%;
+}
+
+/*------------------------------------- Nav arrows ----------------------------------------------*/
+.arrow {
+  display: flex;
+}
+
+/*------------------------------------------------------- Footer ---------------------------------------------*/
+footer {
+  background-color: #000;
+  height: 450px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+footer h2 {
+  font-size: 40px;
+}
+footer p {
+  font-size: 20px;
+}
+.eform {
+  width: 270px;
+  height: 60px;
+  text-align: right;
+}
+.btn {
+  width: 200px;
+  height: 55px;
+}
+
+/*------------------------------------- Media ----------------------------------------------------*/
+@media (max-width: 990px) {
+  iframe {
+    width: 800px;
+    height: 500px;
+  }
+  footer {
+    background-color: #000;
+    height: 500px;
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+  }
+}
+
+@media (max-width: 400px) {
+  iframe {
+    width: 300px;
+    height: 250px;
+  }
+  footer {
+    background-color: #000;
+    height: 750px;
+    color: #fff;
+    font-family: "Cormorant Garamond", serif;
+  }
+}
